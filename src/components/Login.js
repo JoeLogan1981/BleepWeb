@@ -70,11 +70,12 @@ class Login extends Component {
     return (
 
     <div><h1>Sign In Now </h1>
+    <p>This is for HOSPITAL ADMINISTRATORS only, please get the app if you are a healthcare employee</p>
 <Loader loaded={this.state.loaded} color="#FFF">
     <div className="login-form">
 
-    <input name="user" onChange={(e) => this._handleChange(e) } type="text" placeholder="Username" />
-    <input name="pass" onChange={(e) => this._handleChange(e) } type="password" placeholder="Password" />
+    <input className="login-box" name="user" onChange={(e) => this._handleChange(e) } type="text" placeholder="Username" />
+    <input className="login-box" name="pass" onChange={(e) => this._handleChange(e) } type="password" placeholder="Password" />
     <button onClick={() => this.login(this.state.user, this.state.pass) }>Sign In</button>
 
     </div>

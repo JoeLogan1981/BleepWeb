@@ -13,6 +13,7 @@ class Navbar extends Component {
     super();
     this.state = {
       token: null,
+      navon: false,
     }
   }
 
@@ -33,12 +34,15 @@ class Navbar extends Component {
     const image = require("../images/barlogo.png")
     return (
       <div className="bar-wrapper">
-      <div className="mobile-nav">
+      <div className={this.state.navon ? "mobile-nav nav-show" : "mobile-nav"}>
         <div className="one" onClick={() => this.props.navTo('HOME')} ><FontAwesome name='home' size='2x' /></div>
         <div className="two" onClick={() => this.props.navTo('ABOUT')}><FontAwesome name='book' size='2x' /></div>
         <div className="three" onClick={() => this.props.navTo('LOGIN')}><FontAwesome name='key' size='2x' /></div>
       </div>
-      <img className="bar-logo" src={image}/>
+      <div className="logo-box">
+      <img onClick={()=> this.setState({navon: !this.state.navon})}className="bar-logo" src={image}/>
+      <h1 className="logo-text">bleep</h1>
+      </div>
       { this.state.token ?
         <div className="items">
         <a onClick={() => Ref.unauth() }>Logout</a>
