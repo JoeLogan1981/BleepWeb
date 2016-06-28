@@ -23,16 +23,16 @@ class About extends Component {
       case 0:
         Content = (
           <div>
-          <h1>Communicate with teams</h1>
-          <p>Bleep enables staff to communicate with entire healthcare teams with one click.  No more lost pager messages or sticky notes. With Bleep, you can also create teams on-the-go.</p>
+          <h1>The pager just died</h1>
+          <p>With Bleep, we wanted to address the limitations of the pager and telephone in the era of holistic and multidisciplinary care.  Bleep enables teams to create and communicate through specific #team groups, much like Slack and Facebook</p>
           </div>
         )
         break;
       case 1:
         Content = (
           <div>
-          <h1>Communicate with staff</h1>
-          <p>Want to message a specific doctor or nurse privately and securely? Bleep is built around 2048-bit encryption algorithms, and uses stare of the art SSL and TLS privacy tunnels.</p>
+          <h1>What are Bleep #teams?</h1>
+          <p>Using Bleep, you can create your own #teams and use them to communicate. For example, you can create a team for your colleagues on #wards, or a team for the #oncalldocs so that ward jobs are not missed. Bleep is flexible and fast.</p>
           </div>
         )
         break;
@@ -40,7 +40,7 @@ class About extends Component {
         Content = (
           <div>
           <h1>Organise your work</h1>
-          <p>Imagine a nurse from the #wardsix team requests a new cannula for a patient?  With Bleep, you can pin items to your own organiser, and keep track of your own workload and jobs.</p>
+          <p>Imagine a nurse from the #wardsix team requests a new cannula for a patient?  With Bleep, you can pin items to your own organiser, and keep track of your own workload and jobs. No more missed fluid charts, cannulas or patient reviews!</p>
           </div>
         )
         break;
@@ -48,7 +48,7 @@ class About extends Component {
         Content = (
           <div>
           <h1>Secure and Compliant</h1>
-          <p>Bleep is robust, powerful and secure. Through TLS and SSL encryption with 2048-bit hash tables, we can maintain absolute privacy and confidentialy. We also adhere to the AHPRA guidelines.</p>
+          <p>Bleep is robust, powerful and secure. Through TLS and SSL encryption with 2048-bit hash tables, we can maintain absolute privacy and confidentialy. We also fully adhere to the RACGP, Medicare and AHPRA guidelines on e-health and ethics.</p>
           </div>
         )
         break;

@@ -72,6 +72,7 @@
     "react-loader": "^2.4.0",
     "react-motion": "^0.4.3",
     "react-picture-show": "^1.4.0",
-    "react-swipeable-views": "^0.5.4"
+    "react-swipeable-views": "^0.5.4",
+    "whatwg-fetch": "^1.0.0"
   }
 }
